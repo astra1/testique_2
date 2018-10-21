@@ -1,0 +1,27 @@
+{
+    "name": "snake-api",
+    "version": "0.0.0",
+    "private": true,
+    "main": "app.js",
+    "scripts": {
+        "start": "./node_modules/nodemon/bin/nodemon.js app.js",
+        "test": "./node_modules/nodemon/bin/mocha.js --recursive -w ./tests"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.3",
+        "cors": "^2.8.4",
+        "debug": "~2.6.9",
+        "express": "~4.16.0",
+        "http-errors": "~1.6.2",
+        "sequelize": "^4.41.0",
+        "sqlite3": "^4.0.2"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "chai-http": "^4.2.0",
+        "sequelize-cli": "^5.2.0",
+        "mocha": "^5.2.0",
+        "morgan": "~1.9.0",
+        "nodemon": "^1.18.4"
+    }
+}

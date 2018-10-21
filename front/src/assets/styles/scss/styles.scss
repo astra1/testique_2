@@ -1,0 +1,33 @@
+@import 'helpers';
+@import 'variables';
+@import 'mixins';
+
+.align-center {
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+}
+
+.align-left {
+    -webkit-box-pack: start;
+
+    -webkit-justify-content: start;
+
+    -ms-flex-pack: start;
+
+    justify-content: start;
+}
+
+.align-right {
+    -webkit-box-pack: end;
+
+    -webkit-justify-content: end;
+
+    -ms-flex-pack: end;
+
+    justify-content: end;
+}
